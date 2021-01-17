@@ -14,7 +14,7 @@ def get_long_description():
 
 setup(
     name="datasette-query-history",
-    description="Keeps a list of the queries you've run",
+    description="Datasette plugin that keeps a list of the queries you've run and lets you rerun them.",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Bret Walker",

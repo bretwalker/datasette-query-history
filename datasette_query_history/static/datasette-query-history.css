@@ -3,6 +3,11 @@
 	width: 100%;
 }
 
+#query-history-table .previous-query {
+	font-family: ui-monospace, 'Courier New', sans-serif;
+	font-size: 80%;
+}
+
 #query-history-table caption {
 	text-align: left;
 	font-weight: bold;

@@ -5,7 +5,7 @@
 [![Tests](https://github.com/bretwalker/datasette-query-history/workflows/Test/badge.svg)](https://github.com/bretwalker/datasette-query-history/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/bretwalker/datasette-query-history/blob/main/LICENSE)
 
-Datasette plugin that eeps a list of the queries you've run and lets you rerun them
+Datasette plugin that keeps a list of the queries you've run and lets you rerun them.
 
 ## Installation
 

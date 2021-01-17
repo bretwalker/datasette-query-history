@@ -103,6 +103,7 @@ function createHistoryTable(db, form) {
 		actionColumn.onclick = (e) => replaceCurrentQuery(db, e.target.className);
 		var queryColumn = row.insertCell();
 		queryColumn.innerText = q;
+		queryColumn.className = 'previous-query';
 	}
 
 	const clearQueryHistoryButton = document.createElement('button');

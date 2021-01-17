@@ -1,7 +1,7 @@
 from setuptools import setup
 import os
 
-VERSION = "0.2.1"
+VERSION = "0.2.2"
 
 
 def get_long_description():
@@ -28,7 +28,7 @@ setup(
     version=VERSION,
     packages=["datasette_query_history"],
     entry_points={"datasette": ["query_history = datasette_query_history"]},
-    package_data={"datasette_query_history": ["static/datasette-query-history.js"]},
+    package_data={"datasette_query_history": ["static/datasette-query-history.js", "static/datasette-query-history.css"]},
     install_requires=["datasette"],
     extras_require={"test": ["pytest", "pytest-asyncio"]},
     tests_require=["datasette-query-history[test]"],

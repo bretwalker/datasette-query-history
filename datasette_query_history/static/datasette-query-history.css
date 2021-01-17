@@ -1,0 +1,31 @@
+#query-history-table {
+	margin: 1em 0 1em 0;
+	width: 100%;
+}
+
+#query-history-table caption {
+	text-align: left;
+	font-weight: bold;
+}
+
+#query-history-table tr {
+	border: 0;
+	border-bottom: 1px solid #aaa;
+}
+
+#query-history-table tr:last-child {
+	border: 0;
+}
+
+#query-history-table td {
+	border: 0;
+}
+
+#query-history-table td:first-child {
+	width: 20px;
+}
+
+#history-table-wrapper {
+	max-height: 250px;
+	overflow-y: auto;
+}

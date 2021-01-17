@@ -19,7 +19,7 @@ Click the `Query History` button on the SQL editor page to see previous queries.
 Click the ⬆︎ button to replace the current query with a previous query.
 Click the `Clear Query History` button to clear the list previous queries.
 
-![Screenshot of plugin](./docs/datasette-query-history-example1.png)
+<img src="./docs/datasette-query-history-example1.png" width="350px" alt="Screenshot of plugin">
 
 ## Development
 
